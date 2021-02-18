@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: Georgia;
+    font-size: 20;
+    
+}
+.header{
+    background-color: #1f1e1e;
+    height: 80px;;
+    width: 100%;
+    color: white;
+    display: block;
+}
+.inner_header{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Monrserrat';
+    font-size: 32px;
+    font-weight: 200;
+
+}
+.logo_container h1 span{
+    font-weight: 800;
+}
+.navigation{
+    float: right; 
+    height: 100%;
+    
+}
+.navigation button{
+    height: 100%;
+    display: table-cell;
+    float: left;
+    padding: 0px 20px;
+    background-color: transparent;
+    background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;   
+}
+.navigation button:hover{
+    
+    color:  gray;
+}
+.brand_container{
+    width: 70%;
+    
+    display: block;
+    margin: 0 auto;
+    border: black;
+}
+.Our_Brands h1{
+    
+    color: black;
+    
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Monrserrat';
+    
+    font-weight: 500;
+}
+.Our_Brands{
+    text-align: center;
+    background-color: white;
+}
+
+.vectus{
+    margin-bottom: 15px;
+}
+.fs{
+    margin-bottom: 45px;
+    padding-right: 50px;
+}
+.Our_Brands hr{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 0px;
+
+
+}
+.parallax{
+    background: url('./images/background.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+}
+.industrial h1{
+    position: absolute;
+    color: white;
+    margin-top: 5%;
+    margin-left: 15%;
+    font-family: Times;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 103px;
+}
+.industrial h1:hover{
+    position: absolute;
+    opacity: 0.5;
+    margin-top: 5%;
+    margin-left: 15%;
+    font-family: Times;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 103px;
+}
+.footer{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #1f1e1e;
+    height: 400px;
+    font-size: 24px;
+    padding: 0px;
+}
+#map{
+    width: 20%;
+    height: 70%;
+    background-color: grey;
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    background: url("./images/map2.PNG");   
+
+}
+#address{
+    color: gray;
+    font-family: Times;
+
+}
+.container2{
+    max-width: 100%;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 0px;
+
+
+}
+.parallax2{
+    background: url('./images/background2.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+}
+
+
